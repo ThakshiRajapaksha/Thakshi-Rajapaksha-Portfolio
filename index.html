@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thakshi Rajapaksha | Portfolio</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+      </div>
+    </div>
+
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">
+        <span class="logo-bracket">&lt;</span>
+        Thakshi
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active"><i class="fas fa-home"></i> Home</a>
+        <a href="#about"><i class="fas fa-user"></i> About</a>
+        <a href="#tech-stack"><i class="fas fa-layer-group"></i> Tech Stack</a>
+        <a href="#project"><i class="fas fa-project-diagram"></i> Projects</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+      </nav>
+<!-- Add these after your existing Font Awesome link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/icons.css">
+
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text-animation">
+          <h3>Hello, I'm</h3>
+          <h1>Thakshi Rajapaksha</h1>
+          <h3>And I'm a <span class="multiple-text"></span></h3>
+        </div>
+        <p class="home-description">
+          Final year Computer Engineering undergraduate specializing in Data Management, driven by a passion for Software Development, Data Science and Data Engineering fields. I enjoy creating innovative solutions that bridge technology and real-world problems
+        </p>
+        
+        <div class="btn-group">
+          <a href="downloads/Thithira_Paranawithana_CV.pdf" class="btn primary-btn" download="Thithira_Paranawithana_CV">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+          <a href="#contact" class="btn secondary-btn">
+            <i class="fas fa-paper-plane"></i> Let's Talk
+          </a>
+        </div>
+
+        <div class="social-media">
+          <a href="http://www.linkedin.com/in/thakshi-rajapaksha" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="https://github.com/ThakshiRajapaksha" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.instagram.com/_thithira_d24?igsh=MWFjYzlwN2NjMTl3Mg==" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <div class="img-container">
+          <img src="images/myself.jpg" alt="Thithira Paranawithana" />
+          <div class="img-overlay"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="heading">About <span>Me</span></h2>
+          <div class="heading-line"></div>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I am a passionate final year Computer Engineering undergraduate specializing in Data Management with high enthusiasm 
+              in Software/Full-stack Development, Machine Learning, Computer Vision and Data Science. My academic journey has equipped 
+              me with a deep understanding of core computer science concepts, artificial intelligence, optimization, and mathematics.
+            </p>
+            <p>
+              I am driven by curiosity and enjoy exploring how emerging technologies can be applied to solve real-world 
+              problems creatively and efficiently. My goal is to contribute to innovative projects that make a meaningful impact.
+            </p>
+          </div>
+
+          <!-- Stats Cards -->
+          <div class="stats-container">
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="stat-info">
+                <h3>3.65</h3>
+                <p>CGPA</p>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <div class="stat-info">
+                <h3>5+</h3>
+                <p>Certifications</p>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <div class="stat-info">
+                <h3>3+</h3>
+                <p>Major Projects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tabbed Section -->
+        <div class="about-tabs">
+          <ul class="tabs">
+            <li class="tab active" data-tab="education">
+              <i class="fas fa-graduation-cap"></i> Education
+            </li>
+	<li class="tab" data-tab="experience">
+   	 <i class="fas fa-briefcase"></i> Experience
+  	</li>
+            <li class="tab" data-tab="certifications">
+              <i class="fas fa-certificate"></i> Certifications
+            </li>
+          </ul>
+
+          <div class="tab-content active" id="education">
+            <div class="education-timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="education-card">
+                    <div class="education-header">
+                      <div class="university-logo">
+                        <!-- Placeholder for University of Sri Jayewardenepura logo -->
+                        <img src="images/usj-logo.png" alt="USJ Logo" class="edu-logo" />
+                      </div>
+                      <div class="education-info">
+                        <h3>B.Sc Engineering (Hons) - Computer Engineering</h3>
+                        <h4>University of Sri Jayewardenepura</h4>
+                        <p class="specialization">Specializing in Data Management</p>
+                        <div class="education-meta">
+                          <span class="duration"><i class="fas fa-calendar"></i> 2021 - Present</span>
+                          <span class="gpa"><i class="fas fa-star"></i> CGPA: 3.65</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="education-card">
+                    <div class="education-header">
+                      <div class="university-logo">
+                        <!-- Placeholder for Bandaranayake College logo -->
+                        <img src="images/bc-logo.png" alt="BC Logo" class="edu-logo" />
+                      </div>
+                      <div class="education-info">
+                        <h3>G.C.E Advanced Level (Physical Science)</h3>
+                        <h4>Bandaranayake College Gampaha</h4>
+                        <div class="education-meta">
+                          <span class="duration"><i class="fas fa-calendar"></i> 2019</span>
+                          <span class="grade"><i class="fas fa-trophy"></i> 2As & 1B</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="education-card">
+                    <div class="education-header">
+                      <div class="university-logo">
+                        <img src="images/bc-logo.png" alt="BC Logo" class="edu-logo" />
+                      </div>
+                      <div class="education-info">
+                        <h3>G.C.E Ordinary Level</h3>
+                        <h4>Bandaranayake College Gampaha</h4>
+                        <div class="education-meta">
+                          <span class="duration"><i class="fas fa-calendar"></i> 2016</span>
+                          <span class="grade"><i class="fas fa-medal"></i> 9As</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+	<div class="tab-content" id="experience">
+  <div class="experience-timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="experience-card">
+          <div class="experience-header">
+            <div class="company-logo">
+              <!-- Placeholder for Innovation Quotient logo -->
+              <img src="images/iq-logo.png" alt="Innovation Quotient Logo" class="company-logo-img" />
+            </div>
+            <div class="experience-info">
+              <h3>Trainee Software Engineer</h3>
+              <h4>Innovation Quotient (Pvt) Ltd, Colombo</h4>
+              <div class="experience-meta">
+                <span class="duration"><i class="fas fa-calendar"></i> May 2024 - Nov 2024</span>
+                <span class="type"><i class="fas fa-user-tie"></i> Internship</span>
+              </div>
+            </div>
+          </div>
+          <div class="experience-description">
+            <p>Contributed to a full-stack enterprise human resource information system project, actively participating in backend API development, frontend implementation, and database operations.</p>
+            <h5>Key Responsibilities:</h5>
+            <ul>
+              <li>Requirement gathering and analysis</li>
+              <li>BRS documentation drafting</li>
+              <li>Database operations and management</li>
+              <li>Backend API development and integration</li>
+              <li>Frontend implementation with React.js and Redux</li>
+              <li>API integration and testing</li>
+            </ul>
+            <div class="experience-tech">
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">Redux</span>
+              <span class="tech-tag">C# (.NET)</span>
+              <span class="tech-tag">MS SQL Server</span>
+              <span class="tech-tag">Postman</span>
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+          <div class="tab-content" id="certifications">
+            <div class="certifications-grid">
+              <div class="cert-card">
+                <div class="cert-icon">
+                  <i class="fas fa-brain"></i>
+                </div>
+                <h4>Machine Learning Specialization</h4>
+                <p>DeepLearning.AI & Stanford University</p>
+              </div>
+              <div class="cert-card">
+                <div class="cert-icon">
+                  <i class="fab fa-python"></i>
+                </div>
+                <h4>TensorFlow Developer Certificate Bootcamp</h4>
+                <p>Zero To Mastery (Following)</p>
+              </div>
+              <div class="cert-card">
+                <div class="cert-icon">
+                  <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h4>Problem Solving - Basic</h4>
+                <p>HackerRank</p>
+              </div>
+              <div class="cert-card">
+                <div class="cert-icon">
+                  <i class="fab fa-python"></i>
+                </div>
+                <h4>Programming in Python</h4>
+                <p>open.uom.lk</p>
+              </div>
+	<div class="cert-card">
+                <div class="cert-icon">
+                  <i class="fab fa-python"></i>
+                </div>
+                <h4>Programming in Python II</h4>
+                <p>open.uom.lk</p>
+              </div>
+
+              <div class="cert-card">
+                <div class="cert-icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <h4>Introduction to Machine Learning</h4>
+                <p>Kaggle</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Section Design -->
+    <section class="tech-stack" id="tech-stack">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="heading">Tech <span>Stack</span></h2>
+          <div class="heading-line"></div>
+        </div>
+
+        <div class="tech-categories">
+          <div class="tech-category" data-category="frontend">
+            <div class="category-header">
+              <i class="fas fa-palette"></i>
+              <h3>Frontend</h3>
+            </div>
+            <div class="tech-items">
+  <div class="tech-item" data-tech="HTML">
+    <i class="devicon-html5-plain colored"></i>
+    <span>HTML5</span>
+  </div>
+  <div class="tech-item" data-tech="CSS">
+    <i class="devicon-css3-plain colored"></i>
+    <span>CSS3</span>
+  </div>
+  <div class="tech-item" data-tech="JavaScript">
+    <i class="devicon-javascript-plain colored"></i>
+    <span>JavaScript</span>
+  </div>
+  <div class="tech-item" data-tech="React">
+    <i class="devicon-react-original colored"></i>
+    <span>React.js</span>
+  </div>
+  <div class="tech-item" data-tech="Redux">
+    <i class="devicon-redux-original colored"></i>
+    <span>Redux</span>
+  </div>
+</div>
+
+          </div>
+
+          <div class="tech-category" data-category="backend">
+            <div class="category-header">
+              <i class="fas fa-server"></i>
+              <h3>Backend</h3>
+            </div>
+            <div class="tech-items">
+  <div class="tech-item" data-tech="DotNet">
+    <i class="devicon-dot-net-plain colored"></i>
+    <span>.NET</span>
+  </div>
+  <div class="tech-item" data-tech="Spring">
+    <i class="devicon-spring-plain colored"></i>
+    <span>Spring Boot</span>
+  </div>
+  </div>
+
+          </div>
+
+          <div class="tech-category" data-category="languages">
+            <div class="category-header">
+              <i class="fas fa-keyboard"></i>
+              <h3>Languages</h3>
+            </div>
+            <div class="tech-items">
+  <div class="tech-item" data-tech="CPP">
+    <i class="devicon-cplusplus-plain colored"></i>
+    <span>C++</span>
+  </div>
+  <div class="tech-item" data-tech="Python">
+    <i class="devicon-python-plain colored"></i>
+    <span>Python</span>
+  </div>
+  <div class="tech-item" data-tech="Java">
+    <i class="devicon-java-plain colored"></i>
+    <span>Java</span>
+  </div>
+  <div class="tech-item" data-tech="CSharp">
+    <i class="devicon-csharp-plain colored"></i>
+    <span>C#</span>
+  </div>
+  <div class="tech-item" data-tech="SQL">
+    <i class="devicon-mysql-plain colored"></i>
+    <span>SQL</span>
+  </div>
+</div>
+
+          </div>
+
+          <div class="tech-category" data-category="database">
+            <div class="category-header">
+              <i class="fas fa-database"></i>
+              <h3>Database</h3>
+            </div>
+            <div class="tech-items">
+  <div class="tech-item" data-tech="MSSQL">
+    <i class="devicon-microsoftsqlserver-plain colored"></i>
+    <span>MS SQL Server</span>
+  </div>
+  <div class="tech-item" data-tech="MySQL">
+    <i class="devicon-mysql-plain colored"></i>
+    <span>MySQL</span>
+  </div>
+  <div class="tech-item" data-tech="PostgreSQL">
+    <i class="devicon-postgresql-plain colored"></i>
+    <span>PostgreSQL</span>
+  </div>
+  </div>
+
+          </div>
+
+          <div class="tech-category" data-category="ml">
+            <div class="category-header">
+              <i class="fas fa-brain"></i>
+              <h3>ML & Data Science</h3>
+            </div>
+            <div class="tech-items">
+  <div class="tech-item" data-tech="TensorFlow">
+    <i class="devicon-tensorflow-original colored"></i>
+    <span>TensorFlow</span>
+  </div>
+  <div class="tech-item" data-tech="OpenCV">
+    <i class="devicon-opencv-plain colored"></i>
+    <span>OpenCV</span>
+  </div>
+  <div class="tech-item" data-tech="NumPy">
+    <i class="devicon-numpy-original colored"></i>
+    <span>NumPy</span>
+  </div>
+  <div class="tech-item" data-tech="Pandas">
+    <i class="devicon-pandas-original colored"></i>
+    <span>Pandas</span>
+  </div>
+  <div class="tech-item" data-tech="Matplotlib">
+    <i class="devicon-matplotlib-plain colored"></i>
+    <span>Matplotlib</span>
+  </div>
+  <div class="tech-item" data-tech="ScikitLearn">
+    <i class="devicon-scikitlearn-plain colored"></i>
+    <span>Scikit-Learn</span>
+  </div>
+</div>
+
+          </div>
+
+          <div class="tech-category" data-category="tools">
+            <div class="category-header">
+              <i class="fas fa-tools"></i>
+              <h3>Tools & Services</h3>
+            </div>
+            <div class="tech-items">
+  <div class="tech-item" data-tech="Git">
+    <i class="devicon-git-plain colored"></i>
+    <span>Git</span>
+  </div>
+  <div class="tech-item" data-tech="GitHub">
+    <i class="devicon-github-original colored"></i>
+    <span>GitHub</span>
+  </div>
+  <div class="tech-item" data-tech="VSCode">
+    <i class="devicon-vscode-plain colored"></i>
+    <span>VS Code</span>
+  </div>
+<div class="tech-item" data-tech="VisualStudio">
+    <i class="devicon-visualstudio-plain colored"></i>
+    <span>Visual Studio</span>
+  </div>
+  <div class="tech-item" data-tech="Postman">
+    <i class="devicon-postman-plain colored"></i>
+    <span>Postman</span>
+  </div>
+<div class="tech-item" data-tech="Docker">
+    <i class="devicon-docker-plain colored"></i>
+    <span>Docker</span>
+  </div>
+  <div class="tech-item" data-tech="Jupyter">
+    <i class="devicon-jupyter-plain colored"></i>
+    <span>Jupyter</span>
+  </div>
+<div class="tech-item" data-tech="GoogleColab">
+  <i class="devicon-googlecolab-plain colored"></i>
+  <span>Google Colab</span>
+</div>
+<div class="tech-item" data-tech="IntelliJ">
+  <i class="devicon-intellij-plain colored"></i>
+  <span>IntelliJ IDEA</span>
+</div>
+
+  <div class="tech-item" data-tech="PyCharm">
+    <i class="devicon-pycharm-plain colored"></i>
+    <span>PyCharm</span>
+  </div>
+  
+</div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="project" id="project">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="heading">Featured <span>Projects</span></h2>
+          <div class="heading-line"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card" data-repo="safelabs">
+            <div class="project-image">
+              <img src="images/SafeLABS_Logo.jpeg" alt="SafeLABS Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <button class="project-link" onclick="openProjectDetails('safelabs')">
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+                  <a href="#" class="project-link github-link" onclick="openGitHubRepo('https://github.com/Thithira-Paranawithana/SafeLABS'); return false;">
+    <i class="fab fa-github"></i>
+</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-category">Full-Stack • Computer Vision</div>
+              <h3>SafeLABS</h3>
+              <p>Comprehensive Laboratory Management System with face recognition authentication and safety compliance monitoring.</p>
+              <div class="project-tech">
+                <span class="tech-tag">React.js</span>
+		<span class="tech-tag">.NET</span>
+                <span class="tech-tag">C#</span>
+		<span class="tech-tag">Microsoft SQL Server</span>
+		<span class="tech-tag">Python</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">YOLO</span>
+                <span class="tech-tag">TensorFlow</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-repo="nextstop">
+            <div class="project-image">
+              <img src="images/bus.jpg" alt="NextStop Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <button class="project-link" onclick="openProjectDetails('nextstop')">
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+                  <a href="#" class="project-link github-link" onclick="openGitHubRepo('https://github.com/Thithira-Paranawithana/NextStop'); return false;">
+    <i class="fab fa-github"></i>
+</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-category">Microservices • Full-Stack</div>
+              <h3>NextStop</h3>
+              <p>Distributed microservices-based bus ticket reservation system with seamless booking experience.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Netflix Eureka Server</span>
+                <span class="tech-tag">Spring Cloud Gateway</span>
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="project-card" data-repo="motionmetrics">
+            <div class="project-image">
+              <img src="images/sports.jpg" alt="MotionMetrics Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <button class="project-link" onclick="openProjectDetails('motionmetrics')">
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+                  <a href="#" class="project-link github-link" onclick="openGitHubRepo('https://github.com/Thithira-Paranawithana/MotionMetrics'); return false;">
+    <i class="fab fa-github"></i>
+</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-category">Computer Vision • AI</div>
+              <h3>MotionMetrics</h3>
+              <p>Sports Biomechanics Pose Analysis System for multi-angle athlete performance evaluation.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+		<span class="tech-tag">MATLAB</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">SpinView</span>
+                <span class="tech-tag">TensorFlow</span>
+            
+              </div>
+            </div>
+          </div>
+
+<!-- Project 4 - Research Project -->
+<div class="project-card" data-repo="neuralresearch">
+  <div class="project-image">
+    <img src="images/neural-network-research.jpg" alt="Neural Network Research Project" />
+    <div class="project-overlay">
+      <div class="project-links">
+        <button class="project-link" onclick="openProjectDetails('neuralresearch')">
+          <i class="fas fa-info-circle"></i>
+        </button>
+        <a href="#" class="project-link github-link" onclick="openGitHubRepo('https://github.com/Thithira-Paranawithana/Hyperparameter_Optimization'); return false;">
+    <i class="fab fa-github"></i>
+</a>
+      </div>
+    </div>
+  </div>
+  <div class="project-info">
+    <div class="project-category">Research • Machine Learning</div>
+    <h3>Hyperparameter Optimization</h3>
+    <p>Individual research project proposing a meta-learning approach using neural networks to predict optimal hyperparameter combinations for Random Forest classifiers based on dataset characteristics.</p>
+    <div class="project-tech">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">TensorFlow</span>
+      <span class="tech-tag">NumPy</span>
+      <span class="tech-tag">Pandas</span>
+      <span class="tech-tag">Scikit-learn</span>
+      <span class="tech-tag">Matplotlib</span>
+    </div>
+  </div>
+</div>
+
+<!-- Project 5 - CuddleCam -->
+<div class="project-card" data-repo="cuddlecam">
+  <div class="project-image">
+    <img src="images/cuddlecam.jpg" alt="CuddleCam Baby Monitoring System" />
+    <div class="project-overlay">
+      <div class="project-links">
+        <button class="project-link" onclick="openProjectDetails('cuddlecam')">
+          <i class="fas fa-info-circle"></i>
+        </button>
+        <a href="#" class="project-link github-link" onclick="openGitHubRepo('https://github.com/Thithira-Paranawithana/CuddleCam'); return false;">
+    <i class="fab fa-github"></i>
+</a>
+
+      </div>
+    </div>
+  </div>
+  <div class="project-info">
+    <div class="project-category">Computer Vision • Mobile App</div>
+    <h3>CuddleCam</h3>
+    <p>A portable baby monitoring system utilizing computer vision and deep learning for emotion and pose detection, capable of identifying risky behaviors with real-time alerts and video streaming.</p>
+    <div class="project-tech">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">OpenCV</span>
+      <span class="tech-tag">TensorFlow</span>
+      <span class="tech-tag">MediaPipe</span>
+      <span class="tech-tag">Flask</span>
+      <span class="tech-tag">Flutter</span>
+    </div>
+  </div>
+</div>
+
+<!-- Project 6 - Bowling Game -->
+<div class="project-card" data-repo="bowlinggame">
+  <div class="project-image">
+    <img src="images/bowling-game.png" alt="Bowling Game" />
+    <div class="project-overlay">
+      <div class="project-links">
+        <button class="project-link" onclick="openProjectDetails('bowlinggame')">
+          <i class="fas fa-info-circle"></i>
+        </button>
+        <a href="#" class="project-link github-link" onclick="openGitHubRepo('https://github.com/Thithira-Paranawithana/BOWLING-GAME'); return false;">
+    <i class="fab fa-github"></i>
+</a>
+
+      </div>
+    </div>
+  </div>
+  <div class="project-info">
+    <div class="project-category">Console-based Game • C++</div>
+    <h3>Bowling Game</h3>
+    <p>A console-based, fully functional bowling game demonstrating fundamental C++ programming principles with complete game logic and scoring system.</p>
+    <div class="project-tech">
+      <span class="tech-tag">C++</span>
+    </div>
+  </div>
+</div>
+
+          <!-- Placeholder for more projects -->
+                 </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="heading">Get In <span>Touch</span></h2>
+          <div class="heading-line"></div>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>rajapakshatdrbv@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="contact-details">
+                <h4>LinkedIn</h4>
+                <p>Connect with me professionally</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-details">
+                <h4>GitHub</h4>
+                <p>Check out my repositories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-links">
+            <a href="mailto:rajapakshatdrbv@gmail.com" class="contact-btn">
+              <i class="fas fa-envelope"></i> Send Email
+            </a>
+            <a href="http://www.linkedin.com/in/thakshi-rajapaksha" target="_blank" class="contact-btn">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/ThakshiRajapaksha" target="_blank" class="contact-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>&copy; 2025 Thakshi Rajapaksha. All Rights Reserved.</p>
+          </div>
+          <div class="footer-top">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Project Details Modals -->
+    <div id="safelabs" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('safelabs')">&times;</span>
+        <h3>SafeLABS - Laboratory Management System</h3>
+        <p>A comprehensive solution for chemical laboratory management featuring advanced security and safety monitoring.</p>
+        <h4>Key Features:</h4>
+        <ul>
+          <li>Face recognition-based user authentication</li>
+          <li>Anti-spoofing detection technology</li>
+          <li>Real-time safety compliance monitoring</li>
+          <li>Automated attendance recording</li>
+          <li>Resource and user management</li>
+          <li>Lab occupancy tracking</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="nextstop" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('nextstop')">&times;</span>
+        <h3>NextStop - Bus Ticket Reservation System</h3>
+        <p>A modern microservices-based platform for seamless bus ticket booking and management.</p>
+        <h4>Key Features:</h4>
+        <ul>
+          <li>Distributed microservices architecture</li>
+          <li>Real-time seat availability</li>
+          <li>Secure payment processing</li>
+          <li>Route and schedule management</li>
+          <li>User authentication and profiles</li>
+          <li>Responsive web interfaces for admins and customers</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="motionmetrics" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('motionmetrics')">&times;</span>
+        <h3>MotionMetrics - 3D Sports Biomechanics System</h3>
+        <p>Advanced biomechanics analysis system for athletic performance evaluation using computer vision.</p>
+        <h4>Key Features:</h4>
+        <ul>
+          <li>Multi-camera synchronized capture</li>
+	  <li>Camera Calibration</li>
+          <li>3D pose reconstruction</li>
+          <li>Marker-based joint tracking</li>
+          <li>Motion analytics and visualization</li>
+          <li>Athlete-specific session analysis</li>
+        </ul>
+      </div>
+    </div>
+
+<!-- Project 4 - Research Project -->
+<div id="neuralresearch" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('neuralresearch')">&times;</span>
+    <h3>Neural Network Based Hyperparameter Optimization for Random Forest Models</h3>
+    <p>An individual research project that explores the application of meta-learning techniques to automate hyperparameter optimization for Random Forest classifiers.</p>    
+    <h4>Methodology:</h4>
+    <ul>
+      <li>Select datasets to create the meta dataset</li>
+      <li>Define hyperparameter grid with selected hyperparameters</li>
+      <li>Evaluate hyperparameter combinations using traditional methods</li>
+      <li>Create a meta-dataset with dataset characteristics and accuracy</li>
+      <li>Design a neural network to predict accuracy for hyperparameters</li>
+      <li>Train the neural network on the meta-dataset</li>
+      <li>Predict hyperparameters for new datasets using the trained model</li>
+
+    </ul>
+  </div>
+</div>
+
+<!-- CuddleCam Modal -->
+<div id="cuddlecam" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('cuddlecam')">&times;</span>
+    <h3>CuddleCam - Baby Monitoring System</h3>
+    <p>A comprehensive baby monitoring solution that combines computer vision, deep learning, and mobile technology to ensure infant safety through intelligent behavior analysis.</p>
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Real-time emotion detection using facial recognition</li>
+      <li>Pose estimation and movement analysis</li>
+      <li>Risky behavior identification and alerts</li>
+      <li>Live video streaming to mobile devices</li>
+      <li>Instant notification system for parents</li>
+    </ul>
+      </div>
+</div>
+
+<!-- Bowling Game Modal -->
+<div id="bowlinggame" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('bowlinggame')">&times;</span>
+    <h3>Bowling Game - Console-based Application</h3>
+    <p>A fully functional console-based bowling game that demonstrates fundamental C++ programming concepts and object-oriented design principles.</p>
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Complete bowling game logic implementation</li>
+      <li>Accurate scoring system with strikes and spares</li>
+      <li>Frame-by-frame score tracking</li>
+      <li>Input validation and error handling</li>
+      <li>Clean console-based user interface</li>
+    </ul>
+   </div>
+</div>
+
+
+
+
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
