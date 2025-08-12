@@ -140,10 +140,11 @@ document.addEventListener("DOMContentLoaded", function () {
     attendance:
       "https://github.com/ThakshiRajapaksha/Attendance-and-Payroll-Management-System",
     datalake: "https://github.com/ThakshiRajapaksha/DataLake-Backend",
-    neuralresearch:
-      "https://github.com/Thithira-Paranawithana/Hyperparameter_Optimization",
-    Pathfinders: "https://github.com/ThakshiRajapaksha/Maze-solver.git",
-    bowlinggame: "https://github.com/Thithira-Paranawithana/BOWLING-GAME",
+    geolocationresearch:
+      "https://github.com/ThakshiRajapaksha/Object-Detection-Tracking",
+    Pathfinders: "https://github.com/ThakshiRajapaksha/Maze-solver",
+    LeaveManagementSystem:
+      "https://github.com/ThakshiRajapaksha/Leave_Management_System",
   };
 
   // Handle GitHub links for projects
